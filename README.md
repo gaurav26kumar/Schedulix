@@ -1,99 +1,114 @@
-# 🧠 Task Scheduler Visualizer
+🧠 Task Scheduler Visualizer
 
-An interactive **CPU Scheduling Algorithm Visualizer** built with pure **HTML, CSS, and JavaScript**.
-It helps you understand and visualize how different scheduling algorithms (like FCFS, SJF, RR, and Priority Scheduling) manage process execution in an operating system.
+An interactive CPU Scheduling Algorithm Visualizer built using HTML, CSS, and JavaScript that demonstrates how operating systems schedule processes. The project provides real-time visualization of process execution, Gantt charts, performance metrics, and algorithm pseudocode highlighting, making it useful for learning and understanding CPU scheduling concepts.
 
----
+📌 Project Title
 
-## 🌟 Features
+Task Scheduler Visualizer: Interactive CPU Scheduling Algorithm Simulator and Performance Analyzer
 
-* 🎛️ **Multiple Scheduling Algorithms**
+📖 Description
 
-  * First Come First Serve (FCFS)
-  * Shortest Job First (SJF)
-  * Round Robin (RR)
-  * Priority Scheduling
+Task Scheduler Visualizer is a web-based simulator designed to visualize and compare different CPU scheduling algorithms used in operating systems. It enables users to generate process data, observe execution timelines, and analyze metrics such as waiting time, turnaround time, throughput, and context switches.
 
-* 🎨 **Dynamic Themes**
+The project serves as an educational tool for students studying Operating Systems and process scheduling.
 
-  * Dark Nova
-  * Lunar Glow
-  * Oceanic Edge
-  * Velvet Rose
+✨ Features
+🎛️ CPU Scheduling Algorithms
+First Come First Serve (FCFS)
+Shortest Job First (SJF)
+Round Robin (RR)
+Priority Scheduling
+📊 Real-Time Visualization
+Animated Gantt Chart
+Process Timeline View
+Step-by-Step Execution
+Pseudocode Highlighting
+📈 Performance Analysis
+Average Waiting Time
+Average Turnaround Time
+Throughput
+Context Switch Count
+🎨 Dynamic Themes
+Dark Nova
+Lunar Glow
+Oceanic Edge
+Velvet Rose
+🧮 Smart Process Generator
+Automatically generates process data
+Allows testing of different scenarios
+🛠️ Technologies Used
+Technology	Purpose
+HTML5	Structure
+CSS3	Styling and Themes
+JavaScript (ES6)	Logic and Simulation
+Font Awesome	Icons
+Google Fonts	Typography
+📂 Project Structure
+OS Project/
+│
+├── index.html      # Main application file
+├── README.md       # Project documentation
+🚀 How to Run
+Clone the repository:
+git clone https://github.com/your-username/task-scheduler-visualizer.git
+Navigate to the project directory:
+cd task-scheduler-visualizer
+Open index.html in any web browser.
 
-* 📊 **Real-Time Visualization**
+No additional installation or dependencies are required.
 
-  * Animated Gantt chart
-  * Process timeline view
-  * Live algorithm pseudocode highlighting
+📚 Algorithms Implemented
+1. First Come First Serve (FCFS)
 
-* 🧮 **Smart Data Generator**
+Processes are executed in the order they arrive.
 
-  * Auto-generates realistic process data for testing
+2. Shortest Job First (SJF)
 
-* 📈 **Analytics Dashboard**
+The process with the shortest burst time is executed first.
 
-  * Average Waiting Time
-  * Average Turnaround Time
-  * Context Switches
-  * Throughput
+3. Round Robin (RR)
 
----
+Each process receives a fixed time quantum and executes cyclically.
 
-## 🧰 Tech Stack
+4. Priority Scheduling
 
-* **Frontend:** HTML5, CSS3, JavaScript
-* **Icons:** Font Awesome
-* **Fonts:** Google Fonts (Inter)
+Processes are executed based on priority values.
 
----
+📊 Metrics Calculated
+Waiting Time
+Turnaround Time
+Response Time
+Throughput
+Context Switches
+CPU Utilization
+🎯 Applications
+Operating Systems Education
+CPU Scheduling Visualization
+Algorithm Comparison
+Academic Projects
+Process Management Understanding
+🎓 Learning Outcomes
 
-## 🚀 How to Use
+This project helps users understand:
 
-1. Clone or download the project:
+Process Scheduling Concepts
+CPU Utilization Techniques
+Gantt Chart Representation
+Scheduling Performance Metrics
+Comparative Analysis of Algorithms
+🔮 Future Enhancements
+Preemptive SJF Scheduling
+Multilevel Queue Scheduling
+Multilevel Feedback Queue
+Real-time Scheduling Algorithms
+Process Import/Export Support
+Graphical Statistics Dashboard
+Execution Speed Controls
+👨‍💻 Author
 
-   ```bash
-   git clone https://github.com/yourusername/task-scheduler-visualizer.git
-   ```
-2. Open the folder in **VS Code**.
-3. Open `index.html` in your browser.
-4. Select a scheduling algorithm, add process details (ID, Arrival, Burst, etc.), and click **Visualize**.
-5. Switch between themes using the palette icon in the header.
+Gaurav Kumar
+Computer Science and Engineering, NSUT
 
----
+📜 License
 
-## 🧩 Project Structure
-
-```
-📁 task-scheduler-visualizer/
-├── index.html     # Main web app file (HTML, CSS, JS embedded)
-└── assets/        # (Optional) Add screenshots or demo images here
-```
-
----
-
-## 💡 Future Enhancements
-
-* Add preemptive versions of SJF and Priority Scheduling
-* Export results as CSV
-* Dark/light mode auto-detection
-* Add process animation speed control
-
----
-
-## 👨‍💻 Author
-
-**Saurabh Raj Shekhar**
-🎓 Student Developer | Passionate about OS concepts and interactive learning tools
-🌐 [GitHub Profile](https://github.com/Zephyrex21)
-
----
-
-## 🪪 License
-
-This project is open-source under the **MIT License**.
-Feel free to use, modify, and share it!
-
----
-
-✨ *Made with logic, color, and curiosity.*
+This project is developed for educational and academic purposes.
